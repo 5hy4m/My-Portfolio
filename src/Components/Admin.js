@@ -13,7 +13,7 @@ function Admin(props) {
                 });
             setmessages(data)
         });
-    },[]);
+    },[props]);
     console.log(messages);
     
     const msgs = messages === '' ? <div>
