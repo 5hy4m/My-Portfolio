@@ -7,22 +7,25 @@ function FirstSection() {
           <h1 className="mb-0">Shyam
             <span className="text-primary">Kumar</span>
           </h1>
-          <div className="subheading mb-5">3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-            <a href="mailto:name@email.com">name@email.com</a>
+          <div className="subheading ">Full Stack WebDeveloper
+          </div> <div className="subheading mb-5"><i class="fas fa-globe-asia"></i> Chennai,TamilNadu-600081,India · +91 9841873935 · 
+            <a href="mailto:name@email.com"> vcsshyam1998@gmail.com</a>
           </div>
-          <p className="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+          <p className="lead mb-5"><b>I'm a Full Stack Developer,</b><br/>
+           When I watch my Creations in ACTION, <br/>
+           huge Dopamine rushes in my BRAIN & drains through my VIEN</p>
           <div className="social-icons">
-            <a href="#">
+            <a href="https://www.linkedin.com/in/5hy4m/">
               <i className="fab fa-linkedin-in" />
             </a>
-            <a href="#">
+            <a href="https://github.com/5hy4m">
               <i className="fab fa-github" />
             </a>
-            <a href="#">
+            <a href="https://twitter.com/5hy4mkum4r">
               <i className="fab fa-twitter" />
             </a>
-            <a href="#">
-              <i className="fab fa-facebook-f" />
+            <a href="https://www.instagram.com/5hy4m_kum4r/">
+              <i className="fab fa-instagram" />
             </a>
           </div>
         </div>

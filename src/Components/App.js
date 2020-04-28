@@ -5,6 +5,7 @@ import Skills from './Skills'
 import Form from './FormFunc'
 import Admin from './Admin'
 import LoginModal from './LoginModal'
+import Projects from './Projects'
 // import { FirebaseDatabaseProvider } from "@react-firebase/database";
 
 function App() {
@@ -62,10 +63,13 @@ const [admin, toggleAdmin] = useState(false)
                             <a className="nav-link js-scroll-trigger" href="#experience">Experience</a>
                         </li>
                         <li className="nav-item">
+                            <a className="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                        </li>
+                        <li className="nav-item">
                             <a className="nav-link js-scroll-trigger" href="#skills">Skills</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link js-scroll-trigger" href="#contactme">contactme</a>
+                            <a className="nav-link js-scroll-trigger" href="#contactme">contact me</a>
                         </li>
                         <li className="nav-item">
                             <a onClick={handleLogin} data-toggle="modal" data-target="#LoginModal" className="nav-link js-scroll-trigger" href="#admin">ADMIN</a>
@@ -78,6 +82,9 @@ const [admin, toggleAdmin] = useState(false)
             <hr className="m-0" />
             <Experience />
             <hr className="m-0" />
+            <Projects/>
+            <hr className="m-0" />
+            
             <Skills />
             <hr className="m-0" />
             <Form/>

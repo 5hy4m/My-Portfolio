@@ -14,50 +14,37 @@ function Skills() {
               <i className="fab fa-css3-alt" />
             </li>
             <li className="list-inline-item">
+              <i className="fab fa-bootstrap" />
+            </li>
+            <li className="list-inline-item">
               <i className="fab fa-js-square" />
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-angular" />
+              <i className="fab fa-npm" />
             </li>
             <li className="list-inline-item">
               <i className="fab fa-react" />
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-node-js" />
+              <i className="fab fa-python" />
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-sass" />
+              <i className="fas fa-database" />
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-less" />
+              <i className="fab fa-github" />
             </li>
-            <li className="list-inline-item">
-              <i className="fab fa-wordpress" />
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-gulp" />
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-grunt" />
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-npm" />
-            </li>
+            
           </ul>
-          <div className="subheading mb-3">Workflow</div>
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-check" />
-              Mobile-First, Responsive Design</li>
+              HTML, CSS, Bootstrap, Js, React, React Router, Axios, Redux, ContextApi
+            </li>
             <li>
               <i className="fa-li fa fa-check" />
-              Cross Browser Testing &amp; Debugging</li>
-            <li>
-              <i className="fa-li fa fa-check" />
-              Cross Functional Teams</li>
-            <li>
-              <i className="fa-li fa fa-check" />
-              Agile Development &amp; Scrum</li>
+              Python 3, REST Api, Django 2.0, Django Rest Framework, Sql
+            </li>
           </ul>
         </div>
       </section>

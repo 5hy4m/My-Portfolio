@@ -19,3 +19,7 @@ input{
     background-color: #BD5D38;
     color:white;
 }
+
+html {
+    scroll-behavior: smooth;
+  } 
