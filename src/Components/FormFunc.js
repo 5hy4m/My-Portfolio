@@ -14,7 +14,7 @@ const [thx, setThx] = useState(false);
         return (false)
     }
     const ValidatePhno = phno =>{
-        if(Number.isInteger(parseInt(phno))){
+        if(Number.isInteger(parseInt(phno)required )){
         return true
         }
         else{
@@ -69,11 +69,11 @@ const [thx, setThx] = useState(false);
                         <div className=" formcontent d-flex w-100">
                             <form action="post w-100">
                                 <label className="subheading mb-3" htmlFor="fname">Name:</label>
-                                <input className="ml-2 name shadow" type="text" id="fname" name="fname"/><br/>
+                                <input required className="ml-2 name shadow" type="text" id="fname" name="fname"/><br/>
                                 <label className="subheading  mb-3" htmlFor="lname">Email id:</label>
-                                <input className="ml-2 emailid shadow" type="text" id="lname" name="lname"/><br/>
+                                <input required className="ml-2 emailid shadow" type="text" id="lname" name="lname"/><br/>
                                 <label className="subheading mb-3" htmlFor="lname">Phone Number:</label>
-                                <input className="ml-2 shadow phno" type="text" id="lname" name="lname"/><br/>
+                                <input required className="ml-2 shadow phno" type="text" id="lname" name="lname"/><br/>
                                 <textarea rows="4" placeholder="Message" className="shadow msg"/><br/><br/> {/* <input className = "ml-2" type="text" id="lname" name="lname" defaultValue="Doe"/><br/><br/> */}
                                 <input onClick={handleSubmit} type="submit" className="btn btncolor " defaultValue="Submit"/>
                             </form>
