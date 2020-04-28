@@ -1,0 +1,21 @@
+.contactme{
+    margin-top: 100px;
+}
+
+
+textarea{
+    width:100%;
+    color:black;
+    background-color: rgb(255, 196, 173);
+}
+input{
+    border:solid rgb(189, 187, 187) 1px;
+    color:black;
+    background-color: rgb(255, 196, 173);
+    float: right;
+}
+
+.btncolor{
+    background-color: #BD5D38;
+    color:white;
+}
