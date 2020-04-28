@@ -8,7 +8,7 @@ function FirstSection() {
             <span className="text-primary">Kumar</span>
           </h1>
           <div className="subheading ">Full Stack WebDeveloper
-          </div> <div className="subheading mb-5"><i class="fas fa-globe-asia"></i> Chennai,TamilNadu-600081,India · +91 9841873935 · 
+          </div> <div className="subheading mb-5"><i className="fas fa-globe-asia"></i> Chennai,TamilNadu-600081,India · +91 9841873935 · 
             <a href="mailto:name@email.com"> vcsshyam1998@gmail.com</a>
           </div>
           <p className="lead mb-5"><b>I'm a Full Stack Developer,</b><br/>
