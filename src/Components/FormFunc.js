@@ -14,7 +14,7 @@ const [thx, setThx] = useState(false);
         return (false)
     }
     const ValidatePhno = phno =>{
-        if(Number.isInteger(parseInt(phno)required )){
+        if(Number.isInteger(parseInt(phno) )){
         return true
         }
         else{
