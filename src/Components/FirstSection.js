@@ -15,16 +15,16 @@ function FirstSection() {
            When I watch my Creations in ACTION, <br/>
            huge Dopamine rushes in my BRAIN & drains through my VIEN</p>
           <div className="social-icons">
-            <a href="https://www.linkedin.com/in/5hy4m/">
+            <a  target="_blank" href="https://www.linkedin.com/in/5hy4m/">
               <i className="fab fa-linkedin-in" />
             </a>
-            <a href="https://github.com/5hy4m">
+            <a target="_blank" href="https://github.com/5hy4m">
               <i className="fab fa-github" />
             </a>
-            <a href="https://twitter.com/5hy4mkum4r">
+            <a target="_blank" href="https://twitter.com/5hy4mkum4r">
               <i className="fab fa-twitter" />
             </a>
-            <a href="https://www.instagram.com/5hy4m_kum4r/">
+            <a target="_blank" href="https://www.instagram.com/5hy4m_kum4r/">
               <i className="fab fa-instagram" />
             </a>
           </div>
