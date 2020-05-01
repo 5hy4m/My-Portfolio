@@ -23,11 +23,11 @@ function Admin(props) {
         className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
         <div className="resume-content">
 <h3 className="mb-0">{x.name}</h3>
-<div className="subheading mb-3">{x.email}</div>
+<div className="subheading mb-3">Email :{x.email}    || Phone No: {x.phno}</div>
             <p>{x.msg}</p>
         </div>
         <div className="resume-date text-md-right">
-<span className="text-primary">Phone No: {x.phno}</span>
+<span className="text-primary">Date&Time : {x.timestamp}</span>
         </div>
     </div>)
     return (
