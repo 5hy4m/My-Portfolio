@@ -23,7 +23,7 @@ const [admin, toggleAdmin] = useState(false)
     }
 
     if (admin){
-         admindisp = <Admin admin={admin}/>
+         var admindisp = <Admin admin={admin}/>
     }else{
         //  var admindisp = <Admin />
          var admindisp = <div />
